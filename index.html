@@ -570,7 +570,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li>
               <a href="quees.html">
-                Qué es?
+                ¿Qué es?
               </a>
             </li>
             <li>
@@ -610,12 +610,12 @@
 
     <img src="resources/slider-lg.png" alt="Estas elecciones, ¡la ciudadanía propone!" class="hidden-sm visible-md visible-lg" width="100%">
     <img src="resources/slider-xs.png" alt="Estas elecciones, ¡la ciudadanía propone!" class="visible-xs visible-sm hidden-md hidden-lg" width="100%">
-    <img src="resources/BANNER.png" alt="Conoce los resultado de Nuestraelección 2019" width="100%">
+    <img src="resources/BANNER_01.png" alt="Conoce los resultado de Nuestraelección 2019" width="100%">
 
     <section id="orgs-repo">
       <div class="container">
         <div class="row">
-          <h3 class="text-center">Organizaciones presentes</h3>
+          <h3 class="text-center" style="margin-bottom: 60px;">Organizaciones presentes</h3>
           <div class="container">
 
             <div class="col-md-2">
@@ -826,24 +826,31 @@
 
     <a href="http://mochilaelectoral.gt/">
       <div style="width: 100%; overflow: hidden;">
-        <img alt="Visita mochilaelectoral.gt" src="resources/bannermochila.png" width="103%" height="auto">
+        <img alt="Visita mochilaelectoral.gt" src="resources/BANNER_02.png" width="103%" height="auto">
       </div>
     </a>
 
 
   </div>
 
-
-
-  <footer id="footer" class="">
-
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 col-sm-6 col-xs-12 un-proyecto-de">
-          <span class="small">Un proyecto de</span>
-          <div class="logos" style="display: flex;">
-            <a href="https://ciudadaniai.org/">
+  <style>
+  .vcenter {
+      display: inline-block;
+      vertical-align: middle;
+      float: none;
+  }
+  #footer {
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  </style>
+  <footer class="container" id="footer">
+    <div class="row">
+      <div class="col-xs-12 col-md-6">
+        <div class="">
+            <span class="small vcenter" style="margin-right: 40px;">Un proyecto de</span>
+            <a href="https://ciudadaniai.org/" class="vcenter">
               <!-- Logo ciudadanía -->
               <svg width="161" height="64" viewBox="0 0 161 64" xmlns="http://www.w3.org/2000/svg">
                 <title>
@@ -879,23 +886,20 @@
                 </g>
               </svg>
             </a>
-            <a href="http://redciudadana.org/">
+            <a href="http://redciudadana.org/" class="vcenter">
               <img src="resources/logo-brand.png" class="img-responsive" title="Red Ciudadana"
                 alt="Logo de Red Ciudadana">
             </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-xs-12 text-right redes">
-          <ul class="list-inline">
-                <li><a href="info@redciudadana.org.gt" class="email-prensa" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="//github.com/ciudadanointeligente/votainteligente-portal-electoral"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="https://www.facebook.com/Redciudadanagt"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="//twitter.com/RedXGuate"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                <li><a target="_blank" href="http://redciudadana.org/agradecimientos-nuestra-eleccion" onclick="ga('send', 'event', 'nav-dedicatoria', 'click')">Dedicatoria y Agradecimientos</a></li>
-            </ul>
         </div>
       </div>
-      <div>
+      <div class="col-xs-12 col-md-6 text-right redes">
+        <ul class="list-inline vcenter" style="margin-top: 13px;">
+              <li><a href="info@redciudadana.org.gt" class="email-prensa" target="_top"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href="//github.com/ciudadanointeligente/votainteligente-portal-electoral"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href="https://www.facebook.com/Redciudadanagt"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href="//twitter.com/RedXGuate"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a target="_blank" href="http://redciudadana.org/agradecimientos-nuestra-eleccion" onclick="ga('send', 'event', 'nav-dedicatoria', 'click')">Dedicatoria y Agradecimientos</a></li>
+          </ul>
       </div>
     </div>
   </footer>
